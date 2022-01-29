@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.card{
+    background-color: black;
+
+}
+
+.caja{
+    padding: 0;
+}
+
+.tituloMenu{
+    font-size: 35px;
+}
+
+.item1, .item2, .item3, .item4{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.textoCard{
+    color: white;
+}
+
+.tituloCard{
+    color: white;
+}
+
+.navItem{
+    vertical-align: inherit;
+}
+
+.letra{
+    color: white;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    transition-property: all;
+  transition-duration: 1s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.fotoAnime{
+    transition-property: all;
+  transition-duration: 1s;
+}
+
+.fotoAnime:hover{
+    transform: scale(1.2);
+}
+
+.animate__heartBeat{
+    animation-duration: 3s;
+}
